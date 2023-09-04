@@ -1,1 +1,1 @@
-code for Connections Lab
+Week 0 Assignment - Connections Lab

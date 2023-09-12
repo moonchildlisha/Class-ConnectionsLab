@@ -1,0 +1,76 @@
+body{
+    padding: 50px;
+    background-image: url(klimt.jpg);
+    background-size: 100%;
+}
+
+.project_section {
+    width: 100%;
+    margin: 40px;
+    padding: 20px;
+    background-image: linear-gradient(#f5f5dc20, #2e2525);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_heading {
+    color: #251e1e;
+    text-align: right;
+    font-family: copperplate;
+    font-size: 50px;    
+
+}
+
+.project_description{
+    width: 45%;
+    display: inline-block;
+    margin: 40px;
+    color:white;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.project_video{
+    width: 45%;
+    min-width: 400px;
+}
+
+.project_image{
+    width: 28%;
+    margin: 20px;
+    align-items: center;
+}
+
+a{
+    font-family: fantasy;
+    font-size: 20px;
+    color: black;
+    align-items: center;
+    background-color: #ffffff70;
+    margin: 100px;
+}
+
+#palette_media{
+    width:30vw;
+}
+
+#palette{
+    animation-name: move;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move{
+    0%{
+        transform: translateY(0vh);
+    }
+    50%{
+        transform: translateY(50vh);
+    }
+    80%{
+        transform: translateY(80vh);
+    }
+}

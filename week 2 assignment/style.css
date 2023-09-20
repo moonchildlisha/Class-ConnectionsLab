@@ -1,0 +1,53 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(media/1.jpg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    margin:200px;
+}
+
+.project_heading{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 180px;
+}
+
+.project_punctuation1 {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    font-style: italic;
+    margin: 200px;
+    
+}
+.project_punctuation2 {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    font-style: italic;
+    margin: 200px;
+}
+
+
+
+
+.project_button {
+font-size: 30px;
+display:flex;
+flex-direction: column;
+align-items: center;
+margin-left:300px;
+
+} 
+
+
+.project_untitled{
+    font-size:30px;
+    background-color: aliceblue;
+    font-style: italic;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.fadeIn {
+    opacity: 1;
+}

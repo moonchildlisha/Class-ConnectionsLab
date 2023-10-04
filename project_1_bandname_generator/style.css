@@ -1,0 +1,158 @@
+body {
+    padding: 50px;
+    margin-bottom: 400px;
+    background-size: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(media/background.jpg);
+}
+
+div.heading{
+    background-color: #ffffff90;
+    padding: 40px 20px 20px 20px;
+    width: 70%;
+}
+h1{
+    font-size: 60px;
+}
+p{
+    text-align: justify;
+    background-color: #ffffff90;
+    color:#ff0000
+
+}
+
+div.band-name-section {
+    width: 50%;
+    display: inline-block;
+}
+
+#bandName{
+    font-size: 50px;
+    margin-bottom: 300px;
+    text-wrap: center;
+    font-family:Impact, sans-serif;
+    padding:100px;
+    color: #000000;
+    background-color: white;
+
+}
+
+div.generate_and_restart{
+    width: 45%;
+    float: right;
+    display: column;
+}
+
+span.word{
+    font-size: 25px;
+    justify-content: flex-end;
+    display:flex;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid red;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing:border-box;
+    font-weight: 300;
+    color: #f50101;
+    text-align: center;
+    transition: all 0.2s;
+    background-color: white;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+/*buttons for the categories*/
+.button {
+    display: flex;
+    padding: 0.5em 3em;
+    border: 0.16em solid blue;
+    margin: 0.5em 0.3em 0.3em 0;
+    box-sizing:content-box;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ff0000;
+    text-align: center;
+    transition: all 0.15s;
+    background-color: #ffffff99;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button:hover {
+    color: blue;
+    border-color: #f80606;
+    background-color: #f80606;
+}
+.button:active {
+    color: red;
+    border-color: blue;
+}
+@media all and (max-width:30em) {
+    .button {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
+
+/*generate button*/
+.generateButton {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid red;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+    color: #f50101;
+    text-align: center;
+    transition: all 0.2s;
+    font-size: 35px;
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.generateButton:hover {
+    color: white;
+    background-color: blue;
+}
+@media all and (max-width:30em) {
+    .generateButton {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
+
+/*restart button*/
+.restartButton {
+    display:flex;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid blue;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+    color: blue;
+    text-align: center;
+    transition: all 0.2s;
+    font-size: 25px;
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.restartButton:hover {
+    color: blue(255, 255, 255);
+    background-color:rgb(201, 202, 201);
+}
+@media all and (max-width:30em) {
+    .restartButton {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+

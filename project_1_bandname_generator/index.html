@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Band Name Generator</title>
+    <link href="style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Need a name for your band? </h1>
+        <h2>Get some inspiration!</h2>
+        <p>Click again if you don't like the word</p>
+    </div>
+    <div class="band-name-section">
+        <div class="category-button">
+            <button class="button" id="adjsButton">Add an adjective</button>
+            <span class="word" id="adjsWord"></span>
+        </div>
+
+        <div class="category-button">
+            <button class="button" id="capitalsButton">Think of a city</button>
+            <span class="word" id="capitalsWord"></span>
+        </div>
+
+        <div class="category-button">
+            <button class="button" id="cocktailsButton">Would you like a cocktail?</button>
+            <span class="word" id="cocktailsWord"></span>
+        </div>
+
+        <div class="category-button">
+            <button class="button" id="drugsButton">Take some medicine</button>
+            <span class="word" id="drugsWord"></span>
+        </div>
+
+        <div class="category-button">
+            <button class="button" id="flowersButton">Don't forget the flowers!</button>
+            <span class="word" id="flowersWord"></span>
+        </div>
+
+        <div class="category-button">
+            <button class="button" id="ismsButton">Now let's talk about something complicated</button>
+            <span class="word" id="ismsWord"></span>
+        </div>
+
+        <div class="category-button">
+            <button class="button" id="kaomojiButton">///^_^///</button>
+            <span class="word" id="kaomojiWord"></span>
+        </div>
+
+        <div class="category-button">
+            <button class="button" id="materialsButton">My band is made of...</button>
+            <span class="word" id="materialsWord"></span>
+        </div>
+
+        <div class="category-button">
+            <button class="button" id="paintsButton">Btw, which color?</button>
+            <span class="word" id="paintsWord"></span>
+        </div>
+
+        <div class="category-button">
+            <button class="button" id="verbsButton">Finally, add a verb</button>
+            <span class="word" id="verbsWord"></span>
+        </div>
+    </div>
+
+    <div class=generate_and_restart>
+        <p>Click click click...</p>
+        <div id="generatedWords"></div>
+
+        <button class="generateButton" id="generateBandNameButton">Now let's see what you get:</button>
+        <div id="bandName"></div>
+        <button class="restartButton" id="restartGeneratorButton">Don't like it at all? Restart Everything!</button>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

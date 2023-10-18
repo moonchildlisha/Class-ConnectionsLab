@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1 class="project_heading">Today's Pokemon is : <span id="pokemon-name"></span></h1>
+    <section class="project_container">
+
+        <h2 class="project_sub-heading">Enter Pokemon Name :</h2>
+        <div class = "project_entry">
+        <input id="pokemon-input"></input>
+        <button id="pokemon-button">Get Info!</button>
+    </div>
+        <div class = "pokemon_info">
+            <h3 class = "pokemon_name" id = "p-name"></h3>
+            <p class = "pokemon_weight" id = "p-weight"></p>
+            <img class = "pokemon_image" id="p-img"/>
+            <div class = "pokemon_types" id="p-type"></div>
+    </section>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
